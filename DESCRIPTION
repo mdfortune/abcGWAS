@@ -1,0 +1,24 @@
+Package: abcGWAS
+Title: Use ABC for GWAS Causal Variant Inference
+Version: 0.0.0.9000
+Authors@R: c(person("Mary", "Fortune", role = c("aut", "cre"),
+                     email = "mdf34@cam.ac.uk"),
+              person("Chris", "Wallace", role = "aut",
+                     email = "cew54@cam.ac.uk"))
+Description: Use ABC to make inference about causal variants from GWAS summary statistics
+Depends: R (>= 3.3.2)
+License: "GPL-3"
+Encoding: UTF-8
+LazyData: true
+LinkingTo: Rcpp
+Imports:
+    Rcpp
+RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Depends: data.table,
+	 magrittr,
+	 stringr,
+	 cowplot	 
+		
